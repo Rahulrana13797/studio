@@ -1,3 +1,7 @@
+import ExcelMockup from "@/components/excel-mockup";
+
 export default function Home() {
-  return <></>;
+  return (
+    <ExcelMockup />
+  );
 }
