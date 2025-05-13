@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useState, Suspense, lazy } from 'react';
 import { Button } from '@/components/ui/button';
@@ -55,6 +54,7 @@ const ExcelMockup: React.FC = () => {
           <SheetIcon className="w-6 h-6" />
           <h1 className="font-bold text-lg">Planify - S2P Transformation.xlsx</h1>
         </div>
+        {/* Navigation bar commented out as requested
         <nav className="flex space-x-1">
           {['File', 'Home', 'Insert', 'Page Layout'].map(item => (
             <Button key={item} variant="ghost" size="sm" className="text-primary-foreground hover:bg-primary/80 h-8 px-3">
@@ -66,6 +66,7 @@ const ExcelMockup: React.FC = () => {
             </Button>
           ))}
         </nav>
+        */}
       </header>
       
       {/* Excel tabs */}
